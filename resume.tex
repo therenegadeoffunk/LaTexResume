@@ -1,0 +1,82 @@
+% LaTeX file for resume
+
+\documentclass[line,overlapped]{res}
+%\addtolength{\hoffset}{-1in}
+%\hoffset=-1in
+\textwidth=6.6in 
+\resumewidth=7.0in 
+%\sectionwidth=5.0in
+\sectionskip=0.1in
+\usepackage{helvetica} 
+
+\setlength{\oddsidemargin}{-.25in}
+\setlength{\evensidemargin}{-.25in}
+
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+
+\name{Jonathan A. Bethune}
+
+\address{therenegadeoffunk@gmail.com \hspace{1.63in} Setagaya-ku, Tokyo, Japan}
+\address{(070) 4069-4357}
+\newsectionwidth{.2in}
+\begin{resume}
+\section{Introduction}
+	I am an experienced software developer and data engineer from New York City. \\
+    I have a decade of experience in variety of systems engineering and application development.\\ 
+    My dream is to build software that makes the world a better place.
+
+\section{Education}
+{\sl Bachelor of Science,} English Education, New York University \hfill 2006\\
+{\sl Electrical Engineering and Computer Science,} Engineering, Massachusetts Institute of Technology \hfill no degree
+{\sl Master of Information Systems,} University of Phoenix\hfill 2014
+
+\section{Work History}
+    {\bf Software Developer,} Knewton, New York City \hfill April 2010 - September 2014
+\begin{itemize} \itemsep -2pt
+        \item Wrote application code for Java microservices.
+        \item Created infrastructure deployment and monitoring tools in Python.
+        \item Served for a year as QA Engineer and wrote integration test service.
+\end{itemize}
+    \vspace{-10pt}
+    {\bf Lead Systems Engineer,} Timehop, New York City \hfill November 2014 - August 2015
+\begin{itemize} \itemsep -2pt
+        \item Managed AWS infrastructure including RDS, EC2, and DynamoDB services.
+        \item Served as Site Reliability Engineer responding to alerts and preventing outages.
+        \item Created various infrastructure tools using Go and Chef.
+\end{itemize} \itemsep -2pt
+    \vspace{-10pt}
+    {\bf Senior Devops Engineer,} Cloudpassage, San Francisco \hfill August 2015 - Present
+\begin{itemize} \itemsep -2pt
+        \item Optimized multiple Cassandra clusters and created tools for big data analysis.
+        \item Improved scalability and helped reduced AWS costs via data model auditing and automation.
+        \item Automated numerous maintenance and deployment tasks using BASH and Chef.
+\end{itemize}
+
+\section{Independent / Open Source Projects / Volunteer Work}
+{\bf Remote CS Teaching for Kentucky High School} \hfill Fall 2013 - Summer 2014 (Volunteer)
+
+\section{Technical Skills}
+   \begin{tabular}{l p{4in}}
+       {\sl Languages:}& Python, BASH, Java, C, C++, Ruby, Scala, Go, Haskell\\
+       {\sl Data Science:}& Octave, R, Spark, Machine Learning, ELT, Storm\\
+       {\sl Ops:}& Unix, AWS, Cassandra, PostgreSQL, MySQL, Chef, Redis, Docker\\
+ \end{tabular}
+
+\section{Other Skills}
+   \begin{tabular}{l p{4in}}
+       {\sl Foreign Languages:}Japanese, Mandarin, Spanish (basic)\\
+       {\sl Editing: Copy Editing, Technical Writing, Teaching}
+   \end{tabular}
+
+\section{Links}
+    \begin{tabular}{l p{4in}}
+        {\sl Linkedin: https://www.linkedin.com/in/jonathan-bethune-27ba3331\\
+        {\sl Github: https://github.com/therenegadeoffunk\\
+    \end{tabular}
+
+\end{resume}
+\footnotetext[2]{Source code available at http://github.com/TheRenegadeofFunk/}
+\end{document}
